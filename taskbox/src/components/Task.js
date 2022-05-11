@@ -22,6 +22,7 @@ export default function Task({
           aria-label={`archiveTask-${id}`}
         />
       </label>
+
       <div className="title">
         <input
           type="text"
