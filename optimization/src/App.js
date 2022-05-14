@@ -9,6 +9,9 @@ function App() {
   const [open, setOpen] = useState(false);
 
   const onChangeText = (event) => {
+    /**
+     * ChildAreaをメモ化しているので、setTextしてもChildAreaは再レンダリングされない。
+     */
     setText(event.target.value);
   };
 
